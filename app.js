@@ -10,7 +10,7 @@ const mealTypeRoutes=require('./routes/mealType.js')
 const cors=require("cors")
 
 
-const PORT=9091
+const PORT=process.env.PORT || 9091
 const DBSTRING="mongodb+srv://root:root@cluster0.c410x.mongodb.net/zomato"
 // "mongodb://127.0.0.1/Zomato"
 
